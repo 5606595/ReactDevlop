@@ -4,7 +4,7 @@
 var path = require('path')
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var TransferWebpackPlugin = require('transfer-webpack-plugin');
+// var TransferWebpackPlugin = require('transfer-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
@@ -15,9 +15,9 @@ module.exports = {
 
     plugins: [
         new ExtractTextPlugin("[name].html"),
-        new TransferWebpackPlugin([
-            { from: 'img', to: 'img' }
-        ]),
+        // new TransferWebpackPlugin([
+        //     { from: 'img', to: 'img' }
+        // ]),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
