@@ -26,7 +26,9 @@
     "webpack": "^2.3.2"
   },
   "scripts": {
-    "dev": "webpack-dev-server --host 127.0.0.1"
+    "build": "webpack",
+    "dev": "webpack --config webpack-dev-server.config.js",
+    "serve": "webpack-dev-server --config webpack-dev-server.config.js --host 127.0.0.1"
   },
   "author": "",
   "license": "ISC",
