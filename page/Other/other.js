@@ -4,7 +4,10 @@
 import React from 'react'
 import Other from '../../component/Other/other'
 
-export default React.createClass({
+class otherPage extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     render() {
         return (
             <div>
@@ -12,4 +15,6 @@ export default React.createClass({
             </div>
         )
     }
-})
+}
+
+export default otherPage

@@ -3,10 +3,15 @@
  */
 import React from 'react'
 
-export default React.createClass({
+class other extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     render() {
         return (<div>
             hehehe
         </div>)
     }
-})
+}
+
+export default other

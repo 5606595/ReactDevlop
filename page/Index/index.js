@@ -5,7 +5,10 @@
 import React from 'react'
 import Index from '../../component/Index/index'
 
-export default React.createClass({
+class indexPage extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     render() {
         return (
             <div>
@@ -13,4 +16,6 @@ export default React.createClass({
             </div>
         )
     }
-})
+}
+
+export default indexPage

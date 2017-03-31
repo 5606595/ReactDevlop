@@ -1,8 +1,8 @@
 {
-  "name": "botStoreWeb",
+  "name": "reactdevelop",
   "version": "1.0.0",
-  "description": "botStoreWeb code",
-  "repository": "http://gitlab.baidu.com/xiawei05/botStoreWeb",
+  "description": "react+redux+react-router environment",
+  "repository": "https://github.com/5606595/ReactDevlop",
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^6.7.7",
@@ -27,14 +27,15 @@
     "style-loader": "^0.16.1",
     "transfer-webpack-plugin": "^0.1.4",
     "url-loader": "^0.5.8",
-    "webpack": "^2.3.2"
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
     "build": "webpack",
     "dev": "webpack --config webpack-dev-server.config.js",
     "serve": "webpack-dev-server --config webpack-dev-server.config.js --host 127.0.0.1"
   },
-  "author": "",
+  "author": "jorten",
   "license": "ISC",
   "devDependencies": {
     "redux-devtools": "^3.3.2",

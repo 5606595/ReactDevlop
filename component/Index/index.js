@@ -7,10 +7,14 @@ import { Link } from 'react-router'
 import { connect } from 'react-redux'
 import { getName } from '../../actions/indexAction'
 
-export default connect(changeData)(React.createClass({
+
+class index extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     changeName() {
         this.props.dispatch(getName("xiawei"))
-    },
+    }
     render() {
         console.log(this.props.name)
         return (<div className={ style.index }>
@@ -18,10 +22,12 @@ export default connect(changeData)(React.createClass({
                 haha
             </span>
             <Link to="/other">Go</Link>
-            <button onClick={ this.changeName }>换名字</button>
+            <button onClick={ this.changeName.bind(this) }>换名字</button>
         </div>)
     }
-}))
+}
+
+export default connect(changeData)(index);
 
 function changeData(state) {
     return {
