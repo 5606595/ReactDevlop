@@ -14,4 +14,4 @@ class Other extends React.Component {
     }
 }
 
-export default other
+export default Other
