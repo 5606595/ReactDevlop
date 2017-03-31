@@ -8,7 +8,7 @@ import { connect } from 'react-redux'
 import { getName } from '../../actions/indexAction'
 
 
-class index extends React.Component {
+class Index extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -27,7 +27,7 @@ class index extends React.Component {
     }
 }
 
-export default connect(changeData)(index);
+export default connect(changeData)(Index);
 
 function changeData(state) {
     return {

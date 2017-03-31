@@ -5,7 +5,7 @@
 import React from 'react'
 import Index from '../../component/Index/index'
 
-class indexPage extends React.Component {
+class IndexPage extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -18,4 +18,4 @@ class indexPage extends React.Component {
     }
 }
 
-export default indexPage
+export default IndexPage

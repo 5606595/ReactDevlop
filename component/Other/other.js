@@ -3,7 +3,7 @@
  */
 import React from 'react'
 
-class other extends React.Component {
+class Other extends React.Component {
     constructor(props) {
         super(props)
     }

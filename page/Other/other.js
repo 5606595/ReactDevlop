@@ -4,7 +4,7 @@
 import React from 'react'
 import Other from '../../component/Other/other'
 
-class otherPage extends React.Component {
+class OtherPage extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -17,4 +17,4 @@ class otherPage extends React.Component {
     }
 }
 
-export default otherPage
+export default OtherPage
